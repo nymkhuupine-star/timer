@@ -1,0 +1,80 @@
+* {
+  margin: 0%;
+}
+
+.section {
+  background-color: rgb(186, 73, 73);
+  width: 1200px;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.report {
+  width: 100px;
+  height: 40px;
+  background-color: #ffffff33;
+  color: white;
+}
+.setting {
+  width: 100px;
+  height: 40px;
+  background-color: #ffffff33;
+  color: white;
+}
+.sign {
+  width: 100px;
+  height: 40px;
+  background-color: #ffffff33;
+  color: white;
+}
+.tseg {
+  width: 20px;
+  height: 40px;
+  background-color: #ffffff33;
+  color: white;
+}
+.navi {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.pomoText {
+  font-size: 40px;
+  padding-right: 80px;
+}
+.navi2 {
+  width: 700px;
+  height: 400px;
+  background-color: #ffffff33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.button2 {
+  background-color: #ffffff00;
+  border: none;
+}
+.button2:hover {
+  background-color: #4c1c1c33;
+}
+.pomophoto {
+  background-image: url("./assets/pomophoto.png");
+  background-size: cover;
+
+  width: 50px;
+  height: 50px;
+}
+.pomo {
+  display: flex;
+  flex-direction: row;
+}
